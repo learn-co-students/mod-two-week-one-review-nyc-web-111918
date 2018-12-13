@@ -23,6 +23,9 @@
   <%= f.label :has_mermaids %>
   <%= f.check_box :has_mermaids %>
 
-  <%=  f.submit %>
+  <%= button_to "delete", @sea, :method => :delete %>
+
+<%=  f.submit %>
+  </form>
 
   <% end %>
